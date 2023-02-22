@@ -17,7 +17,7 @@ let bgImage = document.getElementById('game-bg');
 function runGame() {
     // The intro message needs to display in text section
     // One option button needs to display with text "Take me to the zoo"
-    displayScenario('intro');
+    displayScenario('quiz');
     displayScores();
 }
 
@@ -162,7 +162,7 @@ function resetScore() {
 
 let scenarios = [
     {
-        id: 'intro',
+        id: 'quiz',
         background: "url('assets/images/intro.png')",
         message: "Picture this. It's a beautiful sunny day. You have no plans or responsibilities. Life is good. You decide to go to the zoo. What could go wrong?", 
         response: [
