@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Improve SEO by adding description and keywords -->
+    <meta name="description" content="ZOOQUEST is a text based story adventure about a day in the zoo. Choose your
+    answers wisely, danger lurks around every corner.">
+    <meta name="keywords" content="zooquest, zoo, game, text-game, story-game">
+    <!-- Link my CSS stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Link Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <!-- Favicon links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" sizes="512x512" href="favicon/android-chrome-512x512.png">
+    <link rel="icon" sizes="192x192" href="favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <title>Let's play!</title>
+</head>
+
+<body id="game-bg">
+    <!-- Title header -->
+    <header id="title">
+        <!-- 'x' button closes game and brings player back to the home page-->
+        <form method="get" action="https://hartnetl.github.io/the-sealiest-game-you-will-play-today/index.html">
+            <button id="exit">&times;</button>
+         </form>
+         <!-- The title on this page links to the home page-->
+        <h1><a href="indext.html">ZOOQUEST</a></h1>
+        </header>
+
+    <!-- The game area of the page -->
+    <section id="game-space">
+        <!-- This text box will display each scenario text -->
+        <div id="text-box">
+            My text will go in here
+        </div>
+        <!-- The buttons will hold the available response options-->
+        <div id="buttons-container">
+            <button id="option1" class="btn">Option 1</button>
+            <button id="option2" class="btn">Option 2</button>
+        </div>
+    </section>
+   
+    <!-- The space for scores to be displayed -->
+    <footer id="score-space">
+        <div id="scores">
+            <!--Score counter-->
+            <span class="count" class="counts">Completed: <span id="win">0</span></span>
+            <span class="count" class="counts">Lost: <span id="lose">0</span></span>
+            <!--Button to reset scores-->
+            <button id="clear">Clear Score</button>
+        </div>
+    </footer>
+
+    <!-- Link "script.js" javascript file-->
+    <script src="assets/js/scriptt.js"></script>
+
+</body>
+</html>
